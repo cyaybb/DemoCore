@@ -20,7 +20,7 @@ namespace WebApplication4.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("1");
         }
 
         public IActionResult Privacy()
